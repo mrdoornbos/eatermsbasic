@@ -2,10 +2,10 @@
 .debuginfo
 .segment "BIOS"
 
-ACIA_DATA	= $5000
-ACIA_STATUS	= $5001
-ACIA_CMD	= $5002
-ACIA_CTRL	= $5003
+ACIA_DATA = $8400
+ACIA_STATUS = $8401
+ACIA_CMD = $8402
+ACIA_CTRL = $8403
 
 LOAD:
                 rts
